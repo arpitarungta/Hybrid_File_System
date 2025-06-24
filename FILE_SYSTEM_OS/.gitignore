@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+FILE_SYSTEM_OS/cloud/token.json
+FILE_SYSTEM_OS/metadata.db
