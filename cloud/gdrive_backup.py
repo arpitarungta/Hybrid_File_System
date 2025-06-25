@@ -10,8 +10,8 @@ SCOPES = ['https://www.googleapis.com/auth/drive.file']
 
 def get_drive_service():
     creds = None
-    token_path = 'cloud/token.json'
-    creds_path = 'cloud/credentials.json'
+    token_path = '/etc/secrets/token.json'
+    creds_path = '/etc/secrets/credentials.json'
     
     if os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, SCOPES)
